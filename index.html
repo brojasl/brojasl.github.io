@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso Responsable de la Tecnología</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <header>
+        <h1>Uso Responsable de la Tecnología</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio" >Inicio</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#impacto-positivo">Impacto Positivo</a></li>
+                <li><a href="#riesgos">Riesgos</a></li>
+                <li><a href="#consejos">Consejos</a></li>
+                <li><a href="#formulario">Sugerencias</a></li>
+            </ul>
+        </nav>
+
+       <div class="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/carrusel1.jpg" alt="Imagen 1">
+    </div>
+    <div class="carousel-item">
+      <img src="img/carrusel2.jpg" alt="Imagen 2">
+    </div>
+    <div class="carousel-item">
+      <img src="img/carrusel3.jpg" alt="Imagen 3">
+    </div>
+  </div>
+  <button class="carousel-control prev" onclick="moveSlide(-1)">&#10094;</button>
+  <button class="carousel-control next" onclick="moveSlide(1)">&#10095;</button>
+</div>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Bienvenido al proyecto "Uso Responsable de la Tecnología". Aquí aprenderás cómo usar la tecnología de manera segura y ética.</p>
+            <img src="img/inicio.jpg">
+        </section>
+
+        <section id="sobre-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Conoce a los estudiantes que participaron en el proyecto:</p>
+            <ul>
+                <li><strong>Eduardo:</strong> Líder del desarrollo y creación de la página web.</li>
+                <li><strong>Angelith:</strong> Encargada de la estructura HTML.</li>
+                <li><strong>Jashumy:</strong> Encargada del código CSS.</li>
+                <li><strong>Farid:</strong> Encargado del código JavaScript.</li>
+                <img src="img/equipo.png">
+            </ul>
+        </section>
+
+        <section id="impacto-positivo">
+            <h2>Impacto Positivo</h2>
+            <p>Esta sección presenta los beneficios de usar la tecnología de manera responsable, como mejorar la seguridad, la privacidad y la eficiencia.</p>
+            <ul>
+              <li>Educación y aprendizaje: Facilita el acceso a información y recursos educativos de calidad, promoviendo el aprendizaje continuo.</li>
+              <li>Eficiencia y productividad: Mejora la organización, permite la automatización de tareas y optimiza el tiempo en el trabajo y estudio.</li>
+              <li>Conexiones significativas: Fomenta la comunicación y la colaboración global, acercando a las personas y promoviendo intercambios culturales.</li>
+              <li>Innovación y creatividad: Impulsa nuevas ideas, proyectos y soluciones tecnológicas para problemas sociales y ambientales.</li>
+              <li>Conciencia medioambiental: Ayuda a reducir el uso de papel mediante plataformas digitales y fomenta prácticas más sostenibles.</li>
+            </ul>
+        </section>
+
+        <section id="riesgos">
+            <h2>Riesgos</h2>
+            <p>Los peligros potenciales del mal uso de la tecnología, como la adicción, el ciberacoso y la privacidad. Aprende cómo evitarlos.</p>
+             <div class="carouselstext">
+    <div class="carousel-texts">
+      <div class="text">"El conocimiento es poder."</div>
+      <div class="text">"Usa la tecnología con responsabilidad."</div>
+      <div class="text">"La educación transforma vidas."</div>
+      <div class="text">"Innovar es la clave del progreso."</div>
+    </div>
+  </div>
+        </section>
+
+        <section id="consejos">
+            <h2>Consejos</h2>
+            <p>Consejos prácticos para usar la tecnología de manera segura y ética.</p>
+            <ul>
+                <li>No compartas contraseñas con nadie.</li>
+                <li>No abras enlaces sospechosos.</li>
+                <li>Ajusta la configuración de privacidad en las redes sociales.</li>
+            </ul>
+        </section>
+
+        <section id="formulario">
+            <h2>Sugerencias</h2>
+            <form id="sugerencias-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="sugerencia">Sugerencia:</label>
+                <textarea id="sugerencia" name="sugerencia" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <div id="feedback"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Uso Responsable de la Tecnología. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
